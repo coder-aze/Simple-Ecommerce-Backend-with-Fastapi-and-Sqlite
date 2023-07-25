@@ -47,15 +47,36 @@ This is a simple e-commerce backend built using FastAPI, a modern, fast, web fra
 To run the FastAPI application, make sure you have Python installed, and then follow these steps:
 
 1. Clone the repository from GitHub.
-2. Install the required dependencies using pip:
+2. Create a virtual environment using `virtualenv`. If you don't have `virtualenv` installed, you can install it using `pip`:
    ```
-   pip install fastapi uvicorn
+   pip install virtualenv
    ```
-3. Change the directory to the cloned repository.
-4. Run the FastAPI application using Uvicorn:
+   Then, create the virtual environment:
+   ```
+   virtualenv venv
+   ```
+
+3. Activate the virtual environment:
+   - On Windows:
+     ```
+     venv\Scripts\activate
+     ```
+   - On macOS and Linux:
+     ```
+     source venv/bin/activate
+     ```
+
+4. Your virtual environment is now active. You'll see `(venv)` at the beginning of your command prompt, indicating that you're inside the virtual environment.
+
+5. Install the required dependencies inside the virtual environment:
+   ```
+   pip install -r requirements.txt
+   ```
+
+6. Run the FastAPI application using Uvicorn:
    ```
    uvicorn main:app --reload
    ```
-5. The application will start, and you can access the API endpoints at `http://localhost:8000`.
+7. The application will start, and you can access the API endpoints at `http://localhost:8000`.
 
 Feel free to customize and extend this project according to your specific requirements. Happy coding!
