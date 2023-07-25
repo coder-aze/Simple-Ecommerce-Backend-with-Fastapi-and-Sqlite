@@ -86,6 +86,7 @@ To run the FastAPI application, make sure you have Python installed, and then fo
    ```
    uvicorn main:app --reload
    ```
+   
 8. The application will start, and you can access the API endpoints at `http://localhost:8000`.
 
 Feel free to customize and extend this project according to your specific requirements. Happy coding!
