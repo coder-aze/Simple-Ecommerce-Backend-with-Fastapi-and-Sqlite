@@ -82,7 +82,7 @@ To run the FastAPI application, make sure you have Python installed, and then fo
    SECRET_KEY="YOUR_SECRET_KEY"
    ```
 
-Replace `YOUR_SECRET_KEY` from example.env file with a strong, unique secret key. This key will be used to sign and verify authentication tokens.
+  Replace `YOUR_SECRET_KEY` from example.env file with a strong, unique secret key. This key will be used to sign and verify authentication tokens.
 
 7. Run the FastAPI application using Uvicorn:
    ```
