@@ -1,6 +1,10 @@
 # Simple E-commerce Backend with FastAPI
 
-This is a simple e-commerce backend built using FastAPI, a modern, fast, web framework for building APIs with Python. The purpose of this project is to provide a basic structure for an e-commerce application, allowing developers to add and modify features as needed. Please note that the payment system is not implemented in this version, and anyone interested can add it or make any other modifications to suit their requirements.
+This is a straightforward and efficient e-commerce backend developed using FastAPI, a cutting-edge web framework renowned for its speed and exceptional performance with Python. The main objective of this project is to provide a basic structure for an e-commerce application, allowing developers to quickly set up and customize essential functionalities to match their specific needs.
+
+FastAPI's exceptional performance ensures that the backend runs smoothly and efficiently, making it ideal for handling e-commerce processes without any performance bottlenecks. Additionally, this backend features a secure authentication system powered by JSON Web Tokens (JWT), ensuring that user data remains protected throughout the application.
+
+Please note that while this version does not include a payment system, interested users can effortlessly integrate their preferred payment solutions or tailor the backend to suit their individual requirements.
 
 ## Endpoints
 ![screencapture-127-0-0-1-8080-docs-2023-07-25-13_05_06](https://github.com/coder-aze/Simple-Ecommerce-Backend-with-Fastapi-and-Sqlite/assets/32417925/9aa377c9-cb8e-477c-8b02-880c584fffa5)
