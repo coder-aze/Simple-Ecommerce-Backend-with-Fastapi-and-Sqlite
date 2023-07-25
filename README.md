@@ -77,10 +77,17 @@ To run the FastAPI application, make sure you have Python installed, and then fo
    pip install -r requirements.txt
    ```
 
-6. Run the FastAPI application using Uvicorn:
+6. To add authentication to your FastAPI application, you can use a secret key for securing your API endpoints. Here's how you can do it:
+   ```
+   SECRET_KEY="YOUR_SECRET_KEY"
+   ```
+
+Replace `YOUR_SECRET_KEY` from example.env file with a strong, unique secret key. This key will be used to sign and verify authentication tokens.
+
+7. Run the FastAPI application using Uvicorn:
    ```
    uvicorn main:app --reload
    ```
-7. The application will start, and you can access the API endpoints at `http://localhost:8000`.
+8. The application will start, and you can access the API endpoints at `http://localhost:8000`.
 
 Feel free to customize and extend this project according to your specific requirements. Happy coding!
