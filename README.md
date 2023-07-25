@@ -77,12 +77,10 @@ To run the FastAPI application, make sure you have Python installed, and then fo
    pip install -r requirements.txt
    ```
 
-6. To add authentication to your FastAPI application, you can use a secret key for securing your API endpoints. Here's how you can do it:
+6. To add authentication to your FastAPI application, you can use a secret key for securing your API endpoints. Replace `YOUR_SECRET_KEY` from example.env file with a strong, unique secret key. This key will be used to sign and verify authentication tokens. Here's how you can do it:
    ```
    SECRET_KEY="YOUR_SECRET_KEY"
    ```
-
-  Replace `YOUR_SECRET_KEY` from example.env file with a strong, unique secret key. This key will be used to sign and verify authentication tokens.
 
 7. Run the FastAPI application using Uvicorn:
    ```
